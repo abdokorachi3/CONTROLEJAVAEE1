@@ -1,7 +1,9 @@
 
 Système de Gestion des Cours et des Salles de Classe
+
 Description
 Ce projet est une application web développée en Java avec le framework Spring Boot. Elle permet à une institution éducative de gérer les cours et les salles de classe. L'application offre des fonctionnalités de gestion des cours, des salles, des assignations de cours, ainsi que des options de recherche et de pagination pour faciliter la navigation dans les données.
+
 
 Fonctionnalités
 Gestion des Cours :
@@ -38,6 +40,8 @@ resources/templates : Contient les templates Thymeleaf pour l'interface utilisat
 
 listCours.html : Page pour afficher la liste des cours avec pagination et recherche.
 detailsSalle.html : Page pour afficher les détails d'une salle de classe, y compris les cours assignés.
+et add cours et salles et update salles et cours
+
 Fichier de configuration
 application.properties : Contient la configuration de l'application, y compris la connexion à la base de données.
 Prérequis
