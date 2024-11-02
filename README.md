@@ -1,11 +1,11 @@
 
 Système de Gestion des Cours et des Salles de Classe
 
-Description
+Description:
 Ce projet est une application web développée en Java avec le framework Spring Boot. Elle permet à une institution éducative de gérer les cours et les salles de classe. L'application offre des fonctionnalités de gestion des cours, des salles, des assignations de cours, ainsi que des options de recherche et de pagination pour faciliter la navigation dans les données.
 
 
-Fonctionnalités
+Fonctionnalités:
 Gestion des Cours :
 Ajouter un nouveau cours avec son nom, sa description et sa durée.
 Consulter la liste des cours disponibles avec leurs descriptions.
@@ -22,10 +22,10 @@ Pagination des résultats pour faciliter la visualisation.
 Visualiser les détails d'une salle, y compris les cours assignés.
 Modifier les informations d'une salle.
 Supprimer une salle.
-Structure du Projet
+
+Structure du Projet:
 Packages
 controller : Contient les contrôleurs de l'application qui gèrent les requêtes HTTP.
-
 CoursController : Contrôleur pour gérer les opérations CRUD des cours.
 SalleController : Contrôleur pour gérer les opérations CRUD des salles.
 entities : Contient les entités qui représentent les objets de données.
@@ -44,8 +44,9 @@ et add cours et salles et update salles et cours
 
 Fichier de configuration
 application.properties : Contient la configuration de l'application, y compris la connexion à la base de données.
-Prérequis
+Prérequis:
 Java 11+ : Assurez-vous d'avoir Java 11 ou une version ultérieure installée.
 Maven : Pour gérer les dépendances et construire le projet.
 Base de données : Configurez une base de données compatible avec Spring Data JPA (par exemple, MySQL ou H2) et assurez-vous de mettre à jour les informations de connexion dans application.properties
+
 Védio démo : https://github.com/user-attachments/assets/04f2b8a9-38a7-4bb8-82d4-3e2d934eee05
