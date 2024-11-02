@@ -44,6 +44,7 @@ et add cours et salles et update salles et cours
 
 Fichier de configuration
 application.properties : Contient la configuration de l'application, y compris la connexion à la base de données.
+
 Prérequis:
 Java 11+ : Assurez-vous d'avoir Java 11 ou une version ultérieure installée.
 Maven : Pour gérer les dépendances et construire le projet.
